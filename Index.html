@@ -1,28 +1,62 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>CodeTrek-Club</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <a href="Index.html"><img src="img/Logo.png" alt=""></a>
-
+                <a href="index.html"><img src="img/Logo.png" alt=""></a>
             </div>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">Commmunity</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Career</a></li>
+                
+                <li>
+                    <a href="index.html">
+                        <i class="fa fa-home fa-fw"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="community.html">
+                        <i class="fa-sharp fa-solid fa-users"></i>
+                        <span>Commmunity</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="course.html">
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li><a href="support.html">
+                    <i class="fas fa-cog fa-spin"></i>
+                    <span>Support</span>
+                </a>
+                </li>
+                <li>
+                    <a href="career.html">
+                        <span>Career</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <!-- <i class='fas fa-edit'></i> -->
+                        <i class='far fa-question-circle'></i>
+                        <span>FAQ</span>
+                    </a>
+                </li>
             </ul>
             <div class="btn">
-                <button><a href="Login.html">Log In</a></button>
-                <button><a href="Contact.html">Sign Up</a></button>
+                <button><a href="login.html">Log In</a></button>
+                <button><a href="contact.html">Sign Up</a></button>
             </div>
             <div class="burger">
                 <div class="line1"></div>
@@ -30,10 +64,19 @@
                 <div class="line3"></div>
             </div>
         </nav>
-        <div class="title">
-            <h1>Let's Explore The Tech Together</h1>
+        <!-- <div class="title">
+           <marquee behavior="" direction=""><h1>Let's Explore The Tech Together</h1></marquee>
+            <marquee width="60%" direction="right" height="100px">
+                <h1>Let's Explore The Tech Together</h1>
+            </marquee>
             <h3>Code To Compete</h3>
             <button>LEARN MORE</button>
+        </div> -->
+        <div class="container_animate">
+            <div class="row">
+                <span class="text1">CodeTrek Club</span>
+                <span class="text2">Let's Dive Deeper Into Tech</span>
+            </div>
         </div>
     </header>
 
@@ -41,7 +84,7 @@
         <div class="container">
             <h1>Emerging Technology</h1>
             <div class="awm">
-                <div class="awm-title">
+                <div class="course_title1">
                     <h2>Block Chain</h2>
                     <p>
                         A blockchain is a distributed database that is shared among the nodes of a computer network. As a database, a blockchain
@@ -57,9 +100,9 @@
             </div>
             <div class="m416">
                 <div class="buggy">
-                    <img src="img/Logo.png" alt="">
+                    <img src="img/ml.jpeg" alt="">
                 </div>
-                <div class="m416-title">
+                <div class="course_title2">
                     <h2>AI & Machine Learning</h2>
                     <p>
                         Lately, Artificial Intelligence and Machine Learning is a hot topic in the tech industry. Perhaps more than our daily
@@ -69,8 +112,6 @@
                         that you might not have that much time.
                         This is precisely why we made a short video on the topic. It is less than 2 mins, and simplifies Artificial intelligence
                         & Machine learning. We hope this helps you learn more and save your time. Cheers!
-                        You will get to learn so many stuff over here.
-                        So keep in touch with us you will be able to understand all the technical stuff over here.
                     </p>
                 </div>
                 
@@ -79,4 +120,8 @@
     </section>
 <script src="Index.js"></script>
 </body>
+
+<footer>
+    <H1>Hello, Coder</H1>
+</footer>
 </html>
